@@ -23,5 +23,5 @@ To rezip the package after making changes just run `make zipup`.
 
 ![Preview SDDM](https://github.com/higgsbosoncodes/ArchStartscreen-Animated/blob/master/arch-aurora-sddm/preview.png)
 
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=IZ8SqslVKdQ" target="_blank"><img style="width:100%;" src="https://github.com/higgsbosoncodes/ArchStartscreen-Animated/blob/master/arch.aurora/contents/previews/splash.png" alt="Splash Screen"  border="10" /></a>
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=IZ8SqslVKdQ" target="_blank"><img style="width:80%;" src="https://github.com/higgsbosoncodes/ArchStartscreen-Animated/blob/master/arch.aurora/contents/previews/splash.png" alt="Splash Screen"  border="10" /></a>
 <sub><sup>CLICK IMAGE TO SEE VIDEO</sup></sub>
