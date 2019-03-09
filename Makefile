@@ -20,7 +20,7 @@ CCF=compress.sh
 XCONF=/usr/share/sddm/scripts/Xsetup
 
 std:
-	@$(ECHE) "$(C31)Please run 'sudo make install'$(C0)"
+	@$(ECHE) "$(C32)Nothing to do!$(C0)"
 install:
 	@echo "" > $(SDNM)/music
 	@rm -f $(SDNM)/background.png
@@ -49,3 +49,5 @@ install:
 zipup:
 	cd ..
 	$(PS) $(CCF)
+check:
+	@$(ECHE) "$(C32)Nothing to do!$(C0)"
