@@ -7,7 +7,7 @@ To build and install from source run `make install` or `sudo make install`.
 ### AUR
 You can also install this package from the AUR as [arch-animated-startscreen](https://aur.archlinux.org/packages/arch-animated-startscreen/).
 
-Just run `yay -S arch-animated-startscreen`.
+Just run `yay -S arch-animated-startscreen`, `pacaur -S arch-animated-startscreen`, etc.
 
 ## Modification
 ### SDDM-Theme
