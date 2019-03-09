@@ -1,6 +1,6 @@
 # Arch-Aurora-Borealis-Startscreen
 
-Animated SDDM-Theme and Splashscreen for Archlinux (best with KDE)
+Animated SDDM-Theme and Splashscreen for Archlinux (made for KDE)
 
 ## Installation
 To build and install from source run `make install` or `sudo make install`.
