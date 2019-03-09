@@ -5,8 +5,9 @@ Animated SDDM-Theme and Splashscreen for Archlinux (best with KDE)
 To build and install from source run `make install` or `sudo make install`.
 
 ### AUR
-You can also install this package from the AUR as [arch-animated-startscreen](https://aur.archlinux.org/packages/arch-animated-startscreen/)
+You can also install this package from the AUR as [arch-animated-startscreen](https://aur.archlinux.org/packages/arch-animated-startscreen/).
 
+`yay -S arch-animated-startscreen`
 
 ## Modification
 ### SDDM-Theme
