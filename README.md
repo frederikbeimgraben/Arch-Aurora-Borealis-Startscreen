@@ -1,4 +1,5 @@
-# ArchStartscreen-Animated
+# Arch-Aurora-Borealis-Startscreen
+
 Animated SDDM-Theme and Splashscreen for Archlinux (best with KDE)
 
 ## Installation
