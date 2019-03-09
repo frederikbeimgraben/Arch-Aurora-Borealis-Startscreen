@@ -1,0 +1,32 @@
+#!/bin/bash
+export mult=1
+export sink=1
+pulseaudio --check >> nul
+pulseaudio -k >> nul
+pulseaudio -D >> nul
+pactl list short sinks >> nul
+pacmd set-default-sink $sink >> nul
+export volume=$(expr 65536 / $mult)
+pacmd set-sink-volume $sink $volume >> nul
+amixer set Master unmute >> nul
+echo 1 >> nul
+screen -dmS pl sh play.sh
+while [ 1 ]; do
+    if [[ $(pgrep -x "plasmashell") != "" ]]
+    then
+        export vol=$volume
+        export step=$(expr $volume / 20)
+        echo "INIT: $vol | STEP: $step" > 1.log
+        export xv=0
+        while [ $xv != 20 ]; do
+            pacmd set-sink-volume $sink $vol
+            export vol=$(expr $vol - $step)
+            export xv=$(expr $xv + 1)
+            sleep 0.1
+            echo "->{$vol}<-" >> 1.log
+        done
+        sudo screen -X -S pl quit
+        killall music
+        exit
+    fi
+done

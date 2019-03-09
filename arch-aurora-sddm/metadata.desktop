@@ -1,0 +1,16 @@
+[SddmGreeterTheme]
+Name=Arch Aurora
+Description=An animated sddm theme
+Author=rootofarch, higgsbosoncodes
+Copyright=(c) 2017, rootofarch - modified by higgsbosoncodes 2019
+License=GPLv3
+Type=sddm-theme
+Version=1.1
+Website=https://github.com/rootofarch, https://github.com/higgsbosoncodes
+Screenshot=preview.png
+MainScript=Main.qml
+ConfigFile=theme.conf
+TranslationsDirectory=translations
+Email=higgsbosoncodes@gmail.com
+Theme-Id=sddm.auroraarch
+Theme-API=2.0
