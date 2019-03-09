@@ -15,3 +15,7 @@ To change the background replace `background.png` with your picture.
 This Theme is based on [Arch Space Splashscreen](https://store.kde.org/p/1222244/) by [Yankı Ekin Yüksel](https://github.com/yanekyuk) and [darkness-of-arch-sddm](https://github.com/rootofarch/darkness-of-arch-sddm) by [rootofarch](https://github.com/rootofarch/).
 
 To rezip the package after making changes just run `make zipup`.
+
+![Preview SDDM](https://github.com/higgsbosoncodes/ArchStartscreen-Animated/blob/master/arch-aurora-sddm/preview.png)
+
+![Preview Splash](https://github.com/higgsbosoncodes/ArchStartscreen-Animated/blob/master/arch.aurora/contents/previews/splash.png)
