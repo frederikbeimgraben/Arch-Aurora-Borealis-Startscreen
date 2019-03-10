@@ -26,6 +26,7 @@ This Theme is based on [Arch Space Splashscreen](https://store.kde.org/p/1222244
 
 To rezip the package after making changes just run `make zipup`.
 
+If you have any questions or suggestions feel freen to message me [via e-mail](mailto:higgsbosoncoding@gmail.com).
 ## Images
 
 <a><img style="width:100%;" src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch-aurora-sddm/preview.png" alt="Splash Screen"  border="0" /></a>
