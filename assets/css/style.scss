@@ -1,5 +1,12 @@
 @import "{{ site.theme }}";
 var widthyt = document.getElementById('ytvid').offsetWidth;
-.videoy {
-  height: var(widthyt)px;
+iframe {
+  width: 100%;
+}
+
+.aspect-ratio {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 51%;
 }
