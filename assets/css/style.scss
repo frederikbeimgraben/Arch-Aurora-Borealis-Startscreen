@@ -1,5 +1,5 @@
 @import "{{ site.theme }}";
 var widthyt = document.getElementById('ytvid').offsetWidth;
 .videoy {
-  height: var(widthyt);
+  height: var(widthyt)px;
 }
