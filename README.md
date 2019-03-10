@@ -1,4 +1,4 @@
-# Arch-Aurora-Borealis-Startscreen
+# Arch Aurora Borealis Startscreen
 Animated SDDM-Theme and Splashscreen for Archlinux (made for KDE)
 
 ## Installation
