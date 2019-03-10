@@ -1,5 +1,4 @@
 # Arch-Aurora-Borealis-Startscreen
-
 Animated SDDM-Theme and Splashscreen for Archlinux (made for KDE)
 
 ## Installation
@@ -12,10 +11,10 @@ Just run `yay -S arch-animated-startscreen`, `pacaur -S arch-animated-startscree
 
 ## Modification
 ### SDDM-Theme
-To modify the SDDM-Theme edit `arch-aurora-sddm/Main.qml`.
+To modify the SDDM-Theme edit `arch-aurora-sddm/Main.qml` and rebuild the package with `make install`.
 
 ### Background
-To change the background replace `background.png` with your picture.
+To change the background replace `background.png` with your desired picture and rebuild the package with `make install`.
 
 ## Additional Notes
 This Theme is based on [Arch Space Splashscreen](https://store.kde.org/p/1222244/) by [Yankı Ekin Yüksel](https://github.com/yanekyuk) and [darkness-of-arch-sddm](https://github.com/rootofarch/darkness-of-arch-sddm) by [rootofarch](https://github.com/rootofarch/).
