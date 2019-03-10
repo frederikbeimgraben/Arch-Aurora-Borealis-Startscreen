@@ -13,3 +13,12 @@ iframe {
   height: 100%;
   left: 0; top: 0;
 }
+
+code {
+    padding: 2px 4px;
+    font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    font-size: 0.9rem;
+    color: $code-text-color;
+    background-color: "#333333";
+    border-radius: 0.3rem;
+}
