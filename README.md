@@ -41,7 +41,7 @@ Just edit the duration in millisecons which is here formatted <b><span style="co
 <b>              <span style="color:orange">duration: 600</span></b>
 <span style="color:#395179">              running</span>: <span style="color:magenta">true</span>
 <span>          }</span>
-<span style="color:green">              NumberAnimation</span> on opacity { <span style="color:#395179">//FadeOut</span>
+<span style="color:green">          NumberAnimation</span> on opacity { <span style="color:#395179">//FadeOut</span>
 <span style="color:#395179">              id</span>: createAnimationBB
 <span style="color:#395179">              from</span>: <span style="color:orange">0</span>
 <span style="color:#395179">              to</span>: <span style="color:orange">1</span>
@@ -70,7 +70,7 @@ Just edit the duration in millisecons which is here formatted <b><span style="co
 <b>              <span style="color:orange">duration: 1500</span></b>
 <span style="color:#395179">              running</span>: <span style="color:magenta">false</span>
 <span>          }</span>
-<span style="color:green">              NumberAnimation</span> on opacity { <span style="color:#395179">//FadeOut</span>
+<span style="color:green">          NumberAnimation</span> on opacity { <span style="color:#395179">//FadeOut</span>
 <span style="color:#395179">              id</span>: bwdAnimation
 <span style="color:#395179">              from</span>: <span style="color:orange">1</span>
 <span style="color:#395179">              to</span>: <span style="color:orange">0</span>
