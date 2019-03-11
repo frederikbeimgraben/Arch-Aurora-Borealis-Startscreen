@@ -25,14 +25,14 @@ Just edit the duration in millisecons which is here formatted <b><span style="co
 <pre>
 <span style="color:green"> Image </span>{
 <span style="color:#395179">          z</span>: <span style="color:orange">99</span>
-<span style="color:#395179">          anchors.top</span>: <span style="color:#395179">background.top</span>
-<span style="color:#395179">          anchors.right</span>: <span style="color:#395179">background.right</span>
+<span style="color:#395179">          anchors<span style="color:white">.</span>top</span>: <span style="color:#395179">background<span style="color:white">.</span>top</span>
+<span style="color:#395179">          anchors<span style="color:white">.</span>right</span>: <span style="color:#395179">background<span style="color:white">.</span>right</span>
 <span style="color:#395179">          id</span>: blackBS
-<span style="color:#395179">          anchors.fill</span>: background
+<span style="color:#395179">          anchors<span style="color:white">.</span>fill</span>: background
 <span style="color:#395179">          source</span>: <span style="color:red">"black.png"</span>
-<span style="color:#395179">          fillMode</span>: <span style="color:#395179">Image.PreserveAspectCrop</span>
-<span style="color:#395179">          width</span>: <span style="color:#395179">Screen.width</span>
-<span style="color:#395179">          height</span>: <span style="color:#395179">Screen.height</span>
+<span style="color:#395179">          fillMode</span>: <span style="color:#395179">Image<span style="color:white">.</span>PreserveAspectCrop</span>
+<span style="color:#395179">          width</span>: <span style="color:#395179">Screen<span style="color:white">.</span>width</span>
+<span style="color:#395179">          height</span>: <span style="color:#395179">Screen<span style="color:white">.</span>height</span>
 <span style="color:#395179">          opacity</span>: <span style="color:orange">1</span>
 <span style="color:green">          NumberAnimation</span> on opacity { <span style="color:#395179">//FadeIn</span>
 <span style="color:#395179">              id</span>: createAnimationBS
@@ -55,13 +55,13 @@ Just edit the duration in millisecons which is here formatted <b><span style="co
 <pre>
 <span style="color:green"> Image </span>{
 <span style="color:#395179">          z</span>: <span style="color:orange">100</span>
-<span style="color:#395179">          anchors.top</span>: <span style="color:#395179">background.top</span>
-<span style="color:#395179">          anchors.right</span>: <span style="color:#395179">background.right</span>
+<span style="color:#395179">          anchors<span style="color:white">.</span>top</span>: <span style="color:#395179">background<span style="color:white">.</span>top</span>
+<span style="color:#395179">          anchors<span style="color:white">.</span>right</span>: <span style="color:#395179">background<span style="color:white">.</span>right</span>
 <span style="color:#395179">          id</span>: toBeCreated
-<span style="color:#395179">          anchors.fill</span>: background
+<span style="color:#395179">          anchors<span style="color:white">.</span>fill</span>: background
 <span style="color:#395179">          source</span>: <span style="color:red">"background.png"</span>
-<span style="color:#395179">          width</span>: <span style="color:#395179">Screen.width</span>
-<span style="color:#395179">          height</span>: <span style="color:#395179">Screen.height</span>
+<span style="color:#395179">          width</span>: <span style="color:#395179">Screen<span style="color:white">.</span>width</span>
+<span style="color:#395179">          height</span>: <span style="color:#395179">Screen<span style="color:white">.</span>height</span>
 <span style="color:#395179">          opacity</span>: <span style="color:orange">0</span>
 <span style="color:green">          NumberAnimation</span> on opacity { <span style="color:#395179">//FadeIn</span>
 <span style="color:#395179">              id</span>: createAnimation
