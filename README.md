@@ -49,8 +49,7 @@ Just edit the duration in millisecons which is here formatted <b>bold</b> to adj
               <span style="color:#395179">running</span>: <span style="color:magenta">false</span>
           }
       }
-</pre>
-</pre>
+```
 ##### FadeOut (while logging in)
 [<i><code>Main.qml Line 70 - 94:</code></i>](https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/blob/master/arch-aurora-sddm/Main.qml)
 <pre>
