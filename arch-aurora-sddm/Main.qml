@@ -58,24 +58,6 @@ Rectangle {
         z: 20
         width: Screen.width / 15
         height: 30
-        /*Slider {
-            anchors.fill: parent
-            id: volumeSlider
-            stepSize: 0.1
-            value: 1
-            property real volume: QtMultimedia.convertVolume(volumeSlider.value,
-                QtMultimedia.LogarithmicVolumeScale,
-                QtMultimedia.LinearVolumeScale)
-        }*/
-       
-        /*MediaPlayer {
-            id: playMusic
-            source: "file:://bgm.wav"
-            muted: false
-            autoLoad: true
-            autoPlay: true
-            volume: volumeSlider.volume
-        }*/
     }
     Item {
         anchors.fill: parent
@@ -85,36 +67,6 @@ Rectangle {
             anchors.fill: parent
             source: "background.png"
         }
-        /*Text {
-            z: 99
-            id: mAud
-            anchors.left: parent.left
-            anchors.bottom: parent.bottom
-            text: playMusic.muted
-            font.family: "Helvetica"
-            font.pointSize: 24
-            color: "red"
-        }
-        Text {
-            id: pAud
-            z: 99
-            anchors.left: mAud.right
-            anchors.bottom: parent.bottom
-            text: playMusic.position
-            font.family: "Helvetica"
-            font.pointSize: 24
-            color: "blue"
-        }
-        Text {
-            id: vAud
-            z: 99
-            anchors.left: pAud.right
-            anchors.bottom: parent.bottom
-            text:playMusic.volume
-            font.family: "Helvetica"
-            font.pointSize: 24
-            color: "yellow"
-        }*/
          Image {
                 z: 100
                 anchors.top: background.top
