@@ -49,6 +49,7 @@ Just edit the duration in millisecons which is here formatted <b>bold</b> to adj
               <span style="color:#395179">running</span>: <span style="color:magenta">false</span>
           }
       }
+      
 </pre>
 
 ##### FadeOut (while logging in)
