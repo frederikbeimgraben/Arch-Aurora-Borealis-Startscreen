@@ -21,7 +21,7 @@ To modify the SDDM-Theme edit [`arch-aurora-sddm/Main.qml`](https://github.com/h
 #### Changing Animation Durations
 Just edit the duration in millisecons which is here formatted <b><span style="color:red">bold and red</span></b> to adjust the duration.
 ##### <b>FadeIn and FadeOut (black)</b>
-[<i><code><span style="color:green">Main.qml</span> Line 96 - 121:</code></i>](https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/blob/master/arch-aurora-sddm/Main.qml)
+[<i><code><span style="color:blue">Main.qml</span> Line 96 - 121:</code></i>](https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/blob/master/arch-aurora-sddm/Main.qml)
 <pre>
 <span style="color:green"> Image </span>{
 <span style="color:#395179">          z</span>: <span style="color:orange">99</span>
@@ -51,7 +51,7 @@ Just edit the duration in millisecons which is here formatted <b><span style="co
 <span>      }</span>
 </pre>
 ##### FadeOut (transition to splash)
-[<i><code><span style="color:green">Main.qml</span> Line 70 - 94:</code></i>](https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/blob/master/arch-aurora-sddm/Main.qml)
+[<i><code><span style="color:blue">Main.qml</span> Line 70 - 94:</code></i>](https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/blob/master/arch-aurora-sddm/Main.qml)
 <pre>
 <span style="color:green"> Image </span>{
 <span style="color:#395179">          z</span>: <span style="color:orange">100</span>
