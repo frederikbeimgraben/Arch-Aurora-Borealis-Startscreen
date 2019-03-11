@@ -23,7 +23,6 @@ Just edit the duration in millisecons which is here formatted <b>bold</b> to adj
 ##### <b>FadeIn and FadeOut (black)</b>
 [<i><code>Main.qml Line 96 - 121:</code></i>](https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/blob/master/arch-aurora-sddm/Main.qml)
 <pre>
-<span>
 <span style="color:green"> Image </span>{
 <span style="color:#0455AE">          z</span>: <span style="color:orange">99</span>
 <span style="color:#395179">          anchors.top</span>: <span style="color:#395179">background.top</span>
@@ -42,7 +41,7 @@ Just edit the duration in millisecons which is here formatted <b>bold</b> to adj
 <b><span style="color:#395179">              duration</span>: <span style="color:orange">600</span></b>
 <span style="color:#395179">              running</span>: <span style="color:magenta">true</span>
 <span>          }</span>
-<span style="color:green">              NumberAnimation on opacity { <span style="color:#395179">//FadeOut</span>
+<span style="color:green">              NumberAnimation</span> on opacity { <span style="color:#395179">//FadeOut</span>
 <span style="color:#395179">              id</span>: createAnimationBB
 <span style="color:#395179">              from</span>: <span style="color:orange">0</span>
 <span style="color:#395179">              to</span>: <span style="color:orange">1</span>
@@ -50,9 +49,7 @@ Just edit the duration in millisecons which is here formatted <b>bold</b> to adj
 <span style="color:#395179">              running</span>: <span style="color:magenta">false</span>
 <span>          }</span>
 <span>      }</span>
-</span>
 </pre>
-
 ##### FadeOut (transition to splash)
 [<i><code>Main.qml Line 70 - 94:</code></i>](https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/blob/master/arch-aurora-sddm/Main.qml)
 <pre>
