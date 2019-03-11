@@ -16,7 +16,39 @@ Just run `yay -S arch-animated-startscreen` or `pacaur -S arch-animated-startscr
 
 ## Modification
 ### SDDM-Theme
-To modify the SDDM-Theme edit `arch-aurora-sddm/Main.qml` and rebuild the package with `make install`.
+To modify the SDDM-Theme edit [`arch-aurora-sddm/Main.qml`](https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/blob/master/arch-aurora-sddm/Main.qml) and rebuild the package with `make install`.
+
+#### Changing Animation Durations
+##### FadeIn as Login Screen shows up and Fade out when pressing 'reboot' or 'shutdown'
+Line `96 - 121`:
+<pre>
+ Image {
+          z: 99
+          anchors.top: background.top
+          anchors.right: background.right
+          id: blackBS
+          anchors.fill: background
+          source: "black.png"
+          fillMode: Image.PreserveAspectCrop
+          width: Screen.width
+          height: Screen.height
+          opacity: 1
+          NumberAnimation on opacity {
+              id: createAnimationBS
+              from: 1
+              to: 0
+              <b>duration: 600</b>
+              running: true
+          }
+          NumberAnimation on opacity {
+              id: createAnimationBB
+              from: 0
+              to: 1
+              duration: 600
+              running: false
+          }
+      }
+</pre>
 
 ### Background
 To change the background replace `background.png` with your desired picture and rebuild the package with `make install`.
