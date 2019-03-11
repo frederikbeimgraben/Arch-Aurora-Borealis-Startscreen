@@ -23,30 +23,30 @@ Just edit the duration in millisecons which is here formatted <b>bold</b> to adj
 ##### <b>FadeIn and FadeOut (black)</b>
 [<i><code>Main.qml Line 96 - 121:</code></i>](https://github.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/blob/master/arch-aurora-sddm/Main.qml)
 <pre>
- Image {
-          z: 99
-          anchors.top: background.top
-          anchors.right: background.right
-          id: blackBS
-          anchors.fill: background
-          source: "black.png"
-          fillMode: Image.PreserveAspectCrop
-          width: Screen.width
-          height: Screen.height
-          opacity: 1
-          NumberAnimation on opacity { <span style="color:#395179">//FadeIn</span>
-              id: createAnimationBS
-              from: 1
-              to: 0
-              <b>duration: <span style="color:red">600</span></b>
-              running: true
+ <span style="color:green">Image</span> {
+          <span style="color:#0455AE">z</span>: <span style="color:orange">99</span>
+          <span style="color:#395179">anchors.top</span>: <span style="color:#395179">background.top</span>
+          <span style="color:#395179">anchors.right</span>: <span style="color:#395179">background.right</span>
+          <span style="color:#395179">id</span>: blackBS
+          <span style="color:#395179">anchors.fill</span>: background
+          <span style="color:#395179">source</span>: <span style="color:red">"black.png"</span>
+          <span style="color:#395179">fillMode</span>: <span style="color:#395179">Image.PreserveAspectCrop</span>
+          <span style="color:#395179">width</span>: <span style="color:#395179">Screen.width</span>
+          <span style="color:#395179">height</span>: <span style="color:#395179">Screen.height</span>
+          <span style="color:#395179">opacity</span>: <span style="color:orange">1</span>
+          <span style="color:green">NumberAnimation</span> on opacity { <span style="color:#395179">//FadeIn</span>
+              <span style="color:#395179">id</span>: createAnimationBS
+              <span style="color:#395179">from</span>: <span style="color:orange">1</span>
+              <span style="color:#395179">to</span>: <span style="color:orange">0</span>
+              <b><span style="color:#395179">duration</span>: <span style="color:orange">600</span></b>
+              <span style="color:#395179">running</span>: <span style="color:magenta">true</span>
           }
-          NumberAnimation on opacity { <span style="color:#395179">//FadeOut</span>
-              id: createAnimationBB
-              from: 0
-              to: 1
-              <b>duration: <span style="color:red">600</span></b>
-              running: false
+          <span style="color:green">NumberAnimation on opacity { <span style="color:#395179">//FadeOut</span>
+              <span style="color:#395179">id</span>: createAnimationBB
+              <span style="color:#395179">from</span>: <span style="color:orange">0</span>
+              <span style="color:#395179">to</span>: <span style="color:orange">1</span>
+              <b><span style="color:#395179">duration</span>: <span style="color:red">600</span></b>
+              <span style="color:#395179">running</span>: <span style="color:magenta">false</span>
           }
       }
 </pre>
