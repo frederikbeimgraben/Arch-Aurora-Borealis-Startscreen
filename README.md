@@ -34,14 +34,14 @@ Just edit the duration in millisecons which is here formatted <b>bold</b> to adj
           width: Screen.width
           height: Screen.height
           opacity: 1
-          NumberAnimation on opacity { <span style="color:395179">//FadeIn</span>
+          NumberAnimation on opacity { <span style="color:#395179">//FadeIn</span>
               id: createAnimationBS
               from: 1
               to: 0
               <b>duration: <span style="color:red">600</span></b>
               running: true
           }
-          NumberAnimation on opacity { <span style="color:395179">//FadeOut</span>
+          NumberAnimation on opacity { <span style="color:#395179">//FadeOut</span>
               id: createAnimationBB
               from: 0
               to: 1
@@ -64,14 +64,14 @@ Just edit the duration in millisecons which is here formatted <b>bold</b> to adj
         width: Screen.width
         height: Screen.height
         opacity: 0
-        NumberAnimation on opacity { <span style="color:395179">//FadeOut</span>
+        NumberAnimation on opacity { <span style="color:#395179">//FadeOut</span>
             id: createAnimation
             from: 0
             to: 1
             <b>duration: <span style="color:red">1500</span></b>
             running: false
         }
-        NumberAnimation on opacity { <span style="color:395179">//FadeIn</span>
+        NumberAnimation on opacity { <span style="color:#395179">//FadeIn</span>
             id: bwdAnimation
             from: 1
             to: 0
