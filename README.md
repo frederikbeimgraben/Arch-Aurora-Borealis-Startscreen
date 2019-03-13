@@ -104,5 +104,5 @@ You can optionally add music to the login screen. The preinstalled music is the 
 
 ## Splash Demo
 
-<a><div class="aspect-ratio" style="position:relative;padding-top:56.25%;"><iframe src="https://www.youtube.com/embed/IZ8SqslVKdQ" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe></div></a>
+<a> <div class="aspect-ratio" style="position:relative;padding-top:56.25%;"> <iframe src="https://www.youtube.com/embed/IZ8SqslVKdQ" frameborder="0" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"> </iframe> </div> </a>
 
