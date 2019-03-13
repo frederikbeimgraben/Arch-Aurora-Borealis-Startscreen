@@ -93,7 +93,7 @@ If you have any questions or suggestions feel free to message me [via e-mail](ma
 ## Music
 You can optionally add music to the login screen. The preinstalled music is the background Track of the Steam game [Besiege](https://store.steampowered.com/app/346010/Besiege/).
 <a>
-  <audio id="audio_with_controls" controls src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch-aurora-sddm/bgm.ogg" type="audio/ogg" style="width:100%;">
+  <audio id="audio_with_controls" controls src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch-aurora-sddm/bgm.ogg" type="audio/ogg" style="width:100%;background-color:#FFFFFF;">
 </a>
 
 ## Images
