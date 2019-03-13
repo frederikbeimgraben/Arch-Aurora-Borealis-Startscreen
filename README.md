@@ -102,4 +102,11 @@ You can optionally add music to the login screen. The preinstalled music is the 
 
 <!--<a href="http://www.youtube.com/watch?feature=player_embedded&v=IZ8SqslVKdQ" target="_blank"><img style="width:80%;" src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch.aurora/contents/previews/splash.png" alt="Splash Screen"  border="10" /></a>-->
 
+## Splash Demo
+
+<div class="aspect-ratio" style="position:relative;padding-top:56.25%;">
+        <iframe src="https://www.youtube.com/embed/IZ8SqslVKdQ"frameborder="0" allowfullscreen
+        style="position:absolute;top:0;left:0;width:100%;height:100%;">
+        </iframe> 
+</div>
 <!--<sub><sup>CLICK IMAGE TO SEE VIDEO</sup></sub>-->
