@@ -95,6 +95,7 @@ You can optionally add music to the login screen. The preinstalled music is the 
 <a>
   <audio id="audio_with_controls" controls src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch-aurora-sddm/bgm.ogg" type="audio/ogg" style="width:100%;">
 </a>
+
 ## Images
 
 <a><img style="width:100%;" src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch-aurora-sddm/preview.png" alt="Splash Screen"  border="0" /></a>
