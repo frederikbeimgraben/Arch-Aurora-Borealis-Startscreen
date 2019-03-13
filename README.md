@@ -92,12 +92,7 @@ If you have any questions or suggestions feel free to message me [via e-mail](ma
 
 ## Music
 
-<audio id="audio_with_controls" 
-        controls
-        src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch-aurora-sddm/bgm.ogg" 
-        type="audio/ogg" 
-        style="width:100%;"
->
+<audio id="audio_with_controls" controls src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch-aurora-sddm/bgm.ogg" type="audio/ogg" style="width:100%;">
 
 ## Images
 
