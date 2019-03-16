@@ -1,5 +1,5 @@
 #!/bin/bash
-export mult=1
+export mult=2
 export sink=1
 pulseaudio --check >> nul
 pulseaudio -k >> nul

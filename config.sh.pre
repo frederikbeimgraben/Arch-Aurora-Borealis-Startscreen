@@ -1,0 +1,34 @@
+#!/bin/bash
+CPD="cp -r"
+SDD="/usr/share/sddm/themes/"
+LAF="$(eval echo "~$(who am i | awk '{print $1}')")/.local/share/plasma/look-and-feel/"
+SDNM="arch-aurora-sddm"
+SSTM="arch.aurora"
+AAIM="arch.aurora/contents/splash/images"
+SD="sudo"
+CPSDDM="SDDM Theme"
+CPSST="Splash Screen"
+ECHE="echo -e"
+C0="\x1B[0m"
+C31="\x1B[31m"
+C32="\x1B[32m"
+C33="\x1B[33m"
+C1="\x1B[1m"
+PS="bash"
+MSF="setmus.sh"
+SSF="settheme.sh"
+CCF="compress.sh"
+XCONF="/usr/share/sddm/scripts/Xsetup"
+SDDC="/etc/sddm.conf"
+if [ ! -d "$LAF" ]; then
+    $ECHE "$C31 NON-KDE-INSTALLATION! $C33 SPLASH-SCREEN WONT WORK!$C0"
+    $ECHE "$C31 $LAF doesnt exist $C0"
+else
+    $ECHE "$C33 COPYING $CPSST$C0"
+    $ECHE "$SD $CPD $SSTM $LAF"
+    $SD $CPD $SSTM $LAF
+    $ECHE "$C32 COPIED $CPSST$C0"
+fi
+if [ ! -f "$SDDC" ]; then
+    $SD touch /etc/sddm.conf
+fi

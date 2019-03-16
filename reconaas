@@ -1,0 +1,3 @@
+#!/bin/bash
+cd /usr/share/sddm/themes/arch-aurora-sddm/src
+make install

@@ -18,10 +18,12 @@ MSF=setmus.sh
 SSF=settheme.sh
 CCF=compress.sh
 XCONF=/usr/share/sddm/scripts/Xsetup
+SDDC=/etc/sddm.conf
 
 std:
 	@$(ECHE) "$(C32)Nothing to do!$(C0)"
 install:
+	@$(SD) $(PS) config.sh.pre
 	@echo "" > $(SDNM)/music
 	@rm -f $(SDNM)/background.png
 	@rm -f $(AAIM)/background.png
@@ -31,9 +33,7 @@ install:
 	@$(ECHE) "$(C33)COPYING $(CPSDDM)$(C0)"
 	$(SD) $(CPD) $(SDNM) $(SDD)
 	@$(ECHE) "$(C32)COPIED $(CPSDDM)$(C0)"
-	@$(ECHE) "$(C33)COPYING $(CPSST)$(C0)"
-	$(SD) $(CPD) $(SSTM) $(LAF)
-	@$(ECHE) "$(C32)COPIED $(CPSST)$(C0)"
+	
 	cd $(SDD)/$(SDNM)
 	cat $(XCONF) > xconf.raw
 	$(SD) sed -i '/screen -dmS ms.*/d' xconf.raw
@@ -46,6 +46,11 @@ install:
 	rm -f $(SDNM)/background.png
 	rm -f $(AAIM)/background.png
 	@$(ECHE) "$(C32)$(C1)FINISHED!$(C0)"
+	@$(SD) mkdir $(SDD)$(SDNM)/src > /dev/null || true
+	@$(SD) $(CPD) ./ $(SDD)/$(SDNM)/src/
+	@$(ECHE) "$(C32)Use the command 'reconaas' to reconfigure$(C0)"
+	@$(SD) chmod +x reconaas
+	@$(SD) cp  reconaas /bin/reconaas
 zipup:
 	cd ..
 	$(PS) $(CCF)
