@@ -91,7 +91,7 @@ To rezip the package after making changes just run `make zipup`.
 If you have any questions or suggestions feel free to message me [via e-mail](mailto:higgsbosoncoding@gmail.com).
 
 ## Music
-You can optionally add music to the login screen. The preinstalled music is the background Track of the Steam game [Besiege](https://store.steampowered.com/app/346010/Besiege/).
+You can optionally add music to the login screen. The preinstalled music is the background track of the [Steam](store.steampowered.com)-game [Besiege](https://store.steampowered.com/app/346010/Besiege/).
   <audio id="audio_with_controls" controls src="https://raw.githubusercontent.com/higgsbosoncodes/Arch-Aurora-Borealis-Startscreen/master/arch-aurora-sddm/bgm.ogg" type="audio/ogg" style="width:100%;background-color:#FFFFFF;"></audio>
 
 ## Images
